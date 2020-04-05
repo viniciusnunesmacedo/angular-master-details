@@ -27,7 +27,7 @@ export class CategoryService {
     
     const url = `${this.apiPath}/${id}`;
     
-    return this.http.get(this.apiPath).pipe(
+    return this.http.get(url).pipe(
       catchError(this.handlerError),
       map(this.jsonDataToCategory)
     )
