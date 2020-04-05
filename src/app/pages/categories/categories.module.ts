@@ -11,6 +11,6 @@ import { CategoryFormComponent } from './category-form/category-form.component';
   imports: [
     CommonModule,
     CategoriesRoutingModule
-  ]
+  ],
 })
 export class CategoriesModule { }
